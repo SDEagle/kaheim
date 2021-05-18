@@ -6,7 +6,7 @@ ruby '2.7.2'
 gem 'rails', '~> 6.0.0'
 gem 'pg', '~> 1.1'
 # Use Puma as the app server
-gem 'puma', '~> 3.0'
+gem 'puma', '~> 5.3'
 gem 'bootsnap', '~> 1.4'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -42,7 +42,7 @@ group :development do
   gem 'capistrano', '~> 3.11'
   gem 'capistrano-rails', '~> 1.4'
   gem 'capistrano-bundler', '~> 1.5'
-  gem 'capistrano3-puma', '~> 3.1'
+  gem 'capistrano3-puma', '~> 5.0'
 end
 
 # Use debugger
